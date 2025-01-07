@@ -3,79 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Резюме - Анна Абрамян</title>
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .card {
-            margin: 20px 0;
-        }
-        .footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1 class="text-center mt-5">Резюме</h1>
+        <h3 class="text-center">Анна Абрамян</h3>
+        <p class="text-center">Веб-разработчик, специалист по машинному обучению, обработке естественного языка и анализу данных.</p>
 
-<div class="header">
-    <h1>Резюме</h1>
-    <h3>Анна Абрамян</h3>
-</div>
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">Навыки</div>
+            <div class="card-body">
+                <ul>
+                    <li>Языки программирования: Python, SQL, C#, C++</li>
+                    <li>Фреймворки: Django, Flask</li>
+                    <li>Инструменты: Git, Jupyter Notebook</li>
+                    <li>Библиотеки Python: Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, PyTorch, NLTK</li>
+                </ul>
+            </div>
+        </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <div class="card">
-                <div class="card-body">
-                    <p>Веб-разработчик, специалист по машинному обучению, обработке естественного языка и анализу данных.</p>
-                    <p>Специализируюсь на работе с Django и Flask, имею опыт работы с библиотеками для анализа данных, такими как Pandas и NumPy и другими.</p>
-                    <h2>Навыки</h2>
-                    <ul>
-                        <li>Языки программирования: Python, SQL, C#, C++ </li>
-                        <li>Фреймворки: Django, Flask</li>
-                        <li>Инструменты: Git, Jupyter Notebook</li>
-                        <li>Библиотеки Python: Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, PyTorch, NLTK</li>
-                    </ul>
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">Проекты</div>
+            <div class="card-body">
+                <ul>
+                    <li>Разработка сайта для онлайн магазина на Django.</li>
+                    <li>Работа Telegram бота для интеграции с ChatGPT.</li>
+                    <li>Работа Telegram бота для интеграции с локально развернутой LLM.</li>
+                </ul>
+            </div>
+        </div>
 
-                    <h2>Проекты</h2>
-                    <ul>
-                        <li>Разработка сайта для онлайн магазина на Django.</li>
-                        <li>Работа Telegram бота для интеграции с ChatGPT.</li>
-                        <li>Работа Telegram бота для интеграции с локально развернутой LLM.</li>
-                    </ul>
-
-                    <h2>Ссылки на другие страницы</h2>
-                    <ul>
-                        <li><a href="portfolio.html">Портфолио</a></li>
-                        <li><a href="about_me.html">Обо мне</a></li>
-                        <li><a href="contacts.html">Мои контакты</a></li>
-                    </ul>
-                </div>
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">Ссылки на другие страницы</div>
+            <div class="card-body">
+                <ul>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="about_me.html">Обо мне</a></li>
+                    <li><a href="contacts.html">Мои контакты</a></li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-
-<div class="footer">
-    <p>&copy; 2025 Анна Абрамян</p>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
