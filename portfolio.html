@@ -39,8 +39,12 @@
             </ul>
         </p>
         <div class="project-media">
-            <img src="images/TG_bot_LM_Studio_1.jpg" alt="Диалог и сохранение контекста" class="project-img">
-            <img src="images/TG_bot_LM_Studio_2.jpg" alt="Меню: доступные команды" class="project-img">
+            <div class="img-container">
+                <img src="images/project1_screenshot1.jpg" alt="Скриншот 1 проекта" class="project-img">
+            </div>
+            <div class="img-container">
+                <img src="images/project1_screenshot2.jpg" alt="Скриншот 2 проекта" class="project-img">
+            </div>
         </div>
         <p>
             <b>Демонстрация:</b> 
@@ -56,15 +60,25 @@
         display: flex;
         gap: 10px;
         margin-top: 10px;
+        align-items: flex-start; /* Выравнивание изображений по верхнему краю */
+    }
+
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 45%;
+        max-height: 300px; /* Максимальная высота для контроля */
+        overflow: hidden;
     }
 
     .project-img {
-        width: 45%;
-        height: auto;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+        height: auto; /* Сохраняет исходное соотношение сторон */
+        display: block;
     }
 </style>
+
 
         
         <div class="card mt-4">
