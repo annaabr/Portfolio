@@ -23,6 +23,7 @@
         </div>
 
 <div class="card mt-4">
+    <div class="card mt-4">
     <div class="card-body">
         <h3>
             <a href="https://github.com/annaabr/TG_Bot_LM_Studio_example_1" target="_blank">
@@ -39,12 +40,8 @@
             </ul>
         </p>
         <div class="project-media">
-            <div class="img-container">
-                <img src="images/project1_screenshot1.jpg" alt="Скриншот 1 проекта" class="project-img">
-            </div>
-            <div class="img-container">
-                <img src="images/project1_screenshot2.jpg" alt="Скриншот 2 проекта" class="project-img">
-            </div>
+            <img src="images/project1_screenshot1.jpg" alt="Скриншот 1 проекта" class="project-img">
+            <img src="images/project1_screenshot2.jpg" alt="Скриншот 2 проекта" class="project-img">
         </div>
         <p>
             <b>Демонстрация:</b> 
@@ -60,17 +57,16 @@
         display: flex;
         gap: 10px;
         margin-top: 10px;
-        align-items: flex-start; /* Выравнивание изображений по верхнему краю */
     }
 
-    .img-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 45%;
-        max-height: 300px; /* Максимальная высота для контроля */
-        overflow: hidden;
+    .project-img {
+        width: 45%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+</style>
+
 
     .project-img {
         max-width: 100%;
